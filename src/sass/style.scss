@@ -169,6 +169,8 @@ span.platformGame :hover {
 
 article img {
   @include size;
+  display: flex;
+  object-fit: cover;
 }
 
 article h1 {
@@ -374,7 +376,7 @@ a:visited {
     left: 0;
     width: 0%;
     background: $color-h1;
-    transition: 0.2s;
+    transition: 0.5s;
   }
 
   &:hover:after {
